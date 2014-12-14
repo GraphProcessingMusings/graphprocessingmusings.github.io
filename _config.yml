@@ -11,14 +11,14 @@ relative_permalinks: true
 # Setup
 title:               Graph Processing Musings
 tagline:             'Random thoughts on recent research trends'
-url:                 http://lanyon.getpoole.com
+url:                 http://graphprocessingmusings.github.io
 baseurl:             /
 paginate:            5
 
 # About/contact
 author:
   name:              Marcus Paradies
-  url:               https://www.google.com
+  url:               https://wwwdb.inf.tu-dresden.de/team/external-members/marcus-paradies/
   email:             graphprocessingmusings@gmail.com
 
 # Custom vars
