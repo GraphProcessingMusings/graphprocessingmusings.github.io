@@ -23,3 +23,8 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-58168242-1'
