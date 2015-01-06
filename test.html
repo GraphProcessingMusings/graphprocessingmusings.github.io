@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic sigma.js example</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+    }
+    #container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="./sigma.min.js"></script>
+  <script>
+    var s = new sigma('container');
+    s.graph.addNode({id: 'n0', label: 'Hello', x: 0, y: 0, size: 1, color: '#f00'});
+    s.graph.addNode({id: 'n1', label: 'World !', x: 0.5, y: 0.5, size: 1, color: '#00f'});
+    s.graph.addEdge({id: 'e0', source: 'n0', target: 'n1'});
+    s.refresh();
+  </script>
+</body>
+</html>
